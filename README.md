@@ -1,42 +1,31 @@
-# Biblical History — V5
+# Biblical History v8
 
-V5 expands the historical timeline through Iron Age I, the early monarchy,
-the Omride dynasty, Qarqar, Jehu, the Mesha Stele, Elijah and Elisha,
-Tiglath-Pileser III, Samaria, and Sennacherib.
+Component-first rebuild of the Biblical History project.
 
-## Important data-layer change
+## Core principle
 
-The large historical event collection is now stored in:
+The timeline is navigation. The actual content is presented as long-form encyclopedia-style articles.
 
-`data/events-v5.json`
+## First content milestone
 
-TypeScript loads it through:
+Beginnings is implemented from Creation through Babel, followed by foundational articles for Abraham, Isaac, Jacob, Joseph, Moses and the Exodus.
 
-`data/timeline-v5.ts`
+Major articles are intentionally structured with multiple sections so they can grow to several pages without changing the UI architecture.
 
-This intentionally removes the giant hand-written TypeScript event array.
-JSON parsing now catches missing commas and broken string delimiters before
-the Next.js compiler ever sees the data.
+## Content philosophy
 
-## Run locally
+The site distinguishes:
 
-```powershell
+- Biblical narrative
+- Ancient Near Eastern context
+- Archaeological evidence
+- Historical reconstruction
+- Questions and scholarly debate
+- Theological significance
+
+It does not present uncertain historical reconstructions as established facts.
+
+## Run
+
 npm install
-npm run validate:v5
 npm run dev
-```
-
-Then verify production:
-
-```powershell
-npm run build
-```
-
-## Workflow rule
-
-Before adding another large event batch:
-
-1. Edit JSON data.
-2. Run `npm run validate:v5`.
-3. Run `npm run build`.
-4. Only then commit/deploy.

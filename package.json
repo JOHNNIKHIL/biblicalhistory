@@ -1,13 +1,11 @@
 {
-  "name": "biblical-history-timeline",
-  "version": "0.5.0",
+  "name": "biblical-history",
+  "version": "8.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "validate:v5": "node scripts/validate-v5-data.mjs"
+    "start": "next start"
   },
   "dependencies": {
     "next": "16.3.7",
@@ -16,7 +14,7 @@
     "lucide-react": "^0.468.0"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5",

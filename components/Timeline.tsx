@@ -64,10 +64,10 @@ export default function Timeline() {
           <div className="grid gap-5 lg:grid-cols-[1.3fr_.7fr]">
             <div>
               <div className="sans text-[10px] font-bold uppercase tracking-[.24em] text-[#8b5e34]">
-                V5 · Iron Age & Monarchy
+                V6 · Assyria, Babylon & Exile
               </div>
               <h2 className="mt-2 text-3xl font-bold sm:text-4xl">
-                Israel, Judah and the rise of external evidence
+                From Assyrian domination to the Babylonian exile
               </h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-stone-600">
                 Saul, David, Solomon, the divided kingdom, Omri, Ahab, Qarqar,
@@ -76,7 +76,7 @@ export default function Timeline() {
             </div>
 
             <div className="grid grid-cols-2 gap-3">
-              <Stat value={String(events.length)} label="V5 research events" />
+              <Stat value={String(events.length)} label="V6 research events" />
               <Stat value="7" label="evidence families" />
               <Stat value="4" label="confidence levels" />
               <Stat value="0" label="hand-written array commas" />

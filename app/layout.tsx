@@ -1,18 +1,10 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "The Biblical World — Historical Master Timeline",
-  description: "A source-critical historical timeline of the Biblical world."
+  title: "Biblical History — The Story",
+  description: "A long-form Biblical History encyclopedia and atlas."
 };
 
-export default function RootLayout({
-  children
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return <html lang="en"><body>{children}</body></html>;
 }
