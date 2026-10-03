@@ -1,0 +1,17 @@
+{
+  "release": "V19-V21",
+  "build_fixes": [
+    "Timeline chapter fields",
+    "legacy timeline types/data"
+  ],
+  "new_articles": [
+    "roman-roads",
+    "diaspora-jews",
+    "synagogue-world",
+    "jerusalem-temple-priesthood",
+    "sanhedrin",
+    "josephus",
+    "tacitus-judea",
+    "bar-kokhba-aftermath"
+  ]
+}
