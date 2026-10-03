@@ -1,0 +1,13 @@
+{
+  "release": "V28-V30",
+  "build_fix": true,
+  "new_story_files": [
+    "adam.ts",
+    "sarah.ts",
+    "aaron.ts",
+    "joshua.ts",
+    "haggai.ts"
+  ],
+  "existing_people_retained": true,
+  "chapters_added": 3
+}
