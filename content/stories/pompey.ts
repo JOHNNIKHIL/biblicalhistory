@@ -1,10 +1,10 @@
-export const Pompey = {
+export default {
   "slug": "pompey",
-  "title": "Pompey and the Roman Takeover of Judea",
-  "subtitle": "Roman intervention ends Hasmonean independence.",
+  "title": "Pompey and the Roman Conquest of Jerusalem",
+  "subtitle": "The Roman intervention of 63 BCE and the end of Hasmonean political independence.",
   "date": "63 BCE",
   "chapter": "",
-  "location": "Jerusalem, Judea, Rome",
+  "location": "Jerusalem",
   "bible": [
     "Josephus, Antiquities 14",
     "Josephus, Jewish War 1"
@@ -15,61 +15,45 @@ export const Pompey = {
     "Aristobulus II"
   ],
   "topics": [
-    "Pompey",
-    "Biblical history",
-    "Ancient Near East"
+    "Roman Republic",
+    "Hasmoneans",
+    "Jerusalem"
   ],
   "sections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Roman general Pompey intervenes in a Hasmonean dynastic dispute and captures Jerusalem in 63 BCE. Judea becomes subject to Roman influence and eventually direct administration."
+        "In 63 BCE, the Roman general Pompey entered Jerusalem after intervening in a Hasmonean succession dispute. The event brought Judea into Rome's expanding eastern Mediterranean sphere."
       ]
     },
     {
-      "title": "Biblical Account and Literary Context",
+      "title": "Biblical and Literary Context",
       "paragraphs": [
-        "The principal Biblical passages for this topic are Josephus, Antiquities 14; Josephus, Jewish War 1. These texts were written, transmitted and edited across different periods, so they should be read as ancient literature with particular theological aims rather than as modern chronological reports. The narrative places pompey and the roman takeover of judea within the larger story of Israel, Judah, exile, restoration or the Second Temple world.",
-        "The Biblical writers frequently connect political events with questions of covenant, worship, justice, kingship and divine judgment. Those theological claims are part of the historical significance of the texts even when archaeology cannot independently test them."
+        "Josephus describes the conflict between Hyrcanus II and Aristobulus II and Pompey's involvement. His account was written under Roman rule and must be read with attention to later perspective."
       ]
     },
     {
       "title": "Historical Context",
       "paragraphs": [
-        "Josephus provides the main narrative account, describing the rival claims of Hyrcanus II and Aristobulus II and Pompey’s siege. The event belongs to a wider Roman transformation of the eastern Mediterranean."
+        "Roman conquest did not immediately erase local institutions. Hyrcanus retained a political role while effective sovereignty became constrained by Roman power."
       ]
     },
     {
-      "title": "Historical and Archaeological Evidence",
+      "title": "Archaeology and Primary Evidence",
       "paragraphs": [
-        "Roman rule did not immediately eliminate local institutions. The Hasmonean high-priestly office, client rulers and local elites continued to matter. Over time, however, Roman authority became increasingly direct."
+        "Archaeology and coinage document the changing political environment, although the detailed sequence of Pompey's actions is primarily known through literary sources."
       ]
     },
     {
       "title": "What the Evidence Can and Cannot Establish",
       "paragraphs": [
-        "The Roman takeover creates the geopolitical setting for Herod, the prefects, Jesus and the later Jewish revolts. It also explains why the New Testament repeatedly presents political questions through the lens of Roman power."
-      ]
-    },
-    {
-      "title": "People and Places",
-      "paragraphs": [
-        "Key people: Pompey, Hyrcanus II, Aristobulus II.",
-        "Important locations: Jerusalem, Judea, Rome. Geography matters because political power in the ancient Levant depended heavily on roads, valleys, water sources, agricultural zones, fortifications and access to imperial routes."
+        "The Roman intervention created the political framework in which Herod later rose to power."
       ]
     },
     {
       "title": "Why It Matters",
       "paragraphs": [
-        "Pompey’s conquest is the conventional starting point for the Roman political era in Judea."
-      ]
-    },
-    {
-      "title": "Research Notes",
-      "paragraphs": [
-        "Sources: Josephus, Antiquities 14; Jewish War 1; Roman historical sources and archaeology.",
-        "Further research should compare Biblical, archaeological, epigraphic and imperial evidence rather than relying on a single source tradition.",
-        "Chronology note: dates in this article are conventional or approximate where ancient chronology is debated. The project intentionally marks uncertainty rather than presenting disputed reconstructions as settled fact."
+        "This transition is a major turning point between the independent Hasmonean kingdom and Roman-controlled Judea."
       ]
     }
   ]

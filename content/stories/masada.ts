@@ -1,73 +1,57 @@
-export const Masada = {
+export default {
   "slug": "masada",
   "title": "Masada and the End of the Revolt",
-  "subtitle": "The Roman siege and capture of Masada.",
-  "date": "73/74 CE",
+  "subtitle": "The Roman siege of Masada, Josephus' account and the archaeological evidence from the desert fortress.",
+  "date": "c. 73/74 CE",
   "chapter": "",
-  "location": "Masada, Dead Sea",
+  "location": "Masada / Dead Sea",
   "bible": [
     "Josephus, Jewish War 7"
   ],
   "people": [
-    "Flavius Silva",
-    "Eleazar ben Yair"
+    "Eleazar ben Yair",
+    "Lucius Flavius Silva"
   ],
   "topics": [
-    "Masada",
-    "Biblical history",
-    "Ancient Near East"
+    "Masada archaeology",
+    "Roman siege works",
+    "Josephus"
   ],
   "sections": [
     {
       "title": "Overview",
       "paragraphs": [
-        "Masada becomes a final stronghold for Jewish rebels after the destruction of Jerusalem. Roman forces under Flavius Silva surround the plateau and construct a siege system."
+        "Masada was a fortified site overlooking the Dead Sea that became the final major stronghold associated with the First Jewish Revolt."
       ]
     },
     {
-      "title": "Biblical Account and Literary Context",
+      "title": "Biblical and Literary Context",
       "paragraphs": [
-        "The principal Biblical passages for this topic are Josephus, Jewish War 7. These texts were written, transmitted and edited across different periods, so they should be read as ancient literature with particular theological aims rather than as modern chronological reports. The narrative places masada and the end of the revolt within the larger story of Israel, Judah, exile, restoration or the Second Temple world.",
-        "The Biblical writers frequently connect political events with questions of covenant, worship, justice, kingship and divine judgment. Those theological claims are part of the historical significance of the texts even when archaeology cannot independently test them."
+        "Josephus describes a Roman siege followed by the defenders' collective death. The speech attributed to Eleazar is literary and cannot be treated as a verbatim transcript."
       ]
     },
     {
       "title": "Historical Context",
       "paragraphs": [
-        "Archaeology confirms the Roman circumvallation wall, camps and siege ramp. These remains make Masada one of the clearest archaeological examples of a Roman siege landscape."
+        "Archaeologists have documented the Roman siege ramp, camps, walls and structures on the plateau. These remains provide unusually strong physical evidence for the scale of the Roman operation."
       ]
     },
     {
-      "title": "Historical and Archaeological Evidence",
+      "title": "Archaeology and Primary Evidence",
       "paragraphs": [
-        "Josephus describes a mass suicide before the final Roman assault. Archaeologists have debated details of the story, including the exact circumstances and number of deaths. The physical evidence confirms the siege but does not independently verify every element of Josephus’s speech narratives."
+        "The exact circumstances of the final deaths remain debated because Josephus is the principal narrative source and the archaeological record cannot directly reproduce the speech or individual decisions."
       ]
     },
     {
       "title": "What the Evidence Can and Cannot Establish",
       "paragraphs": [
-        "Masada later became an important symbol in modern Jewish memory. Historical study should distinguish the ancient event, Josephus’s literary presentation and later modern interpretations."
-      ]
-    },
-    {
-      "title": "People and Places",
-      "paragraphs": [
-        "Key people: Flavius Silva, Eleazar ben Yair.",
-        "Important locations: Masada, Dead Sea. Geography matters because political power in the ancient Levant depended heavily on roads, valleys, water sources, agricultural zones, fortifications and access to imperial routes."
+        "Masada became a powerful symbol in modern memory, but historians distinguish that later symbolic significance from what can be established about the ancient event."
       ]
     },
     {
       "title": "Why It Matters",
       "paragraphs": [
-        "Masada closes the major narrative arc from the Roman conquest of Judea to the end of organized resistance in the First Revolt."
-      ]
-    },
-    {
-      "title": "Research Notes",
-      "paragraphs": [
-        "Source: Josephus, Jewish War 7. Archaeological evidence: Roman camps, circumvallation wall, siege ramp and Herodian structures.",
-        "Further research should compare Biblical, archaeological, epigraphic and imperial evidence rather than relying on a single source tradition.",
-        "Chronology note: dates in this article are conventional or approximate where ancient chronology is debated. The project intentionally marks uncertainty rather than presenting disputed reconstructions as settled fact."
+        "The site is an excellent case study in combining archaeology with a single major literary source while keeping their evidentiary limits clear."
       ]
     }
   ]
