@@ -50,16 +50,16 @@ export default function Timeline() {
         <div className="mx-auto max-w-7xl px-4 py-8">
           <div className="grid gap-5 lg:grid-cols-[1.2fr_.8fr]">
             <div>
-              <div className="sans text-[10px] font-bold uppercase tracking-[.24em] text-[#8b5e34]">V2 · Before Israel</div>
+              <div className="sans text-[10px] font-bold uppercase tracking-[.24em] text-[#8b5e34]">V3 · Exodus & Conquest</div>
               <h2 className="mt-2 text-3xl font-bold sm:text-4xl">The ancient world around the Bible</h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-stone-600">
-                V2 expands the foundation into the Neolithic, Bronze Age and Late Bronze Age world. These entries establish context first; they do not turn archaeological parallels into proof of Biblical characters.
+                V3 adds the Exodus and conquest research layer. Competing chronological models, Egyptian context, inscriptions and archaeological sites are kept side-by-side so evidence and interpretation do not get mixed together.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-2">
               {[
-                ['42+', 'historical events'],
-                ['8', 'eras'],
+                ['50+', 'historical events'],
+                ['9', 'eras'],
                 ['7', 'evidence types'],
                 ['4', 'confidence levels'],
               ].map(([value, label]) => (
@@ -86,7 +86,7 @@ export default function Timeline() {
             </div>
             <label className="relative block min-w-0 lg:w-80">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-stone-500" size={17} />
-              <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search events, people, sources…" className="w-full rounded-full border border-[#cdbfa9] bg-white/70 py-2.5 pl-10 pr-9 text-sm sans outline-none focus:border-[#8b5e34]" />
+              <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search events, people, Bible references, sites, sources…" className="w-full rounded-full border border-[#cdbfa9] bg-white/70 py-2.5 pl-10 pr-9 text-sm sans outline-none focus:border-[#8b5e34]" />
               {query && <button type="button" onClick={() => setQuery('')} className="absolute right-2 top-1/2 -translate-y-1/2 p-1 text-stone-500" aria-label="Clear search"><X size={16} /></button>}
             </label>
           </div>
@@ -115,6 +115,41 @@ export default function Timeline() {
           </div>
           <div className="flex items-center gap-2 sans text-sm text-stone-500"><strong className="text-stone-900">{filtered.length}</strong> events shown</div>
         </div>
+
+        {era === "exodus" && (
+          <section className="mb-12 rounded-2xl border border-[#d8cdbb] bg-white overflow-hidden">
+            <div className="border-b border-[#ded3c3] bg-[#fffaf0] px-5 py-5 sm:px-6">
+              <div className="sans text-[10px] font-bold uppercase tracking-[.2em] text-[#8b5e34]">Chronology lab</div>
+              <h3 className="mt-1 text-2xl font-bold">The Exodus question — two major chronological models</h3>
+              <p className="mt-2 max-w-4xl text-sm leading-6 text-stone-600">
+                The interface deliberately presents competing models rather than silently choosing one. Biblical chronology, Egyptian chronology, place-name arguments and archaeology answer different questions and must be evaluated separately.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2">
+              <div className="border-b border-[#ded3c3] p-5 md:border-b-0 md:border-r sm:p-6">
+                <div className="sans text-[10px] font-bold uppercase tracking-[.18em] text-stone-500">Model A</div>
+                <h4 className="mt-2 text-xl font-bold">Early-date model · c. 15th century BCE</h4>
+                <p className="mt-2 text-sm leading-6 text-stone-600">Often associated with a more literal reading of the 480-year figure in 1 Kings 6:1. It creates a different Egyptian and Canaanite archaeological window than the later model.</p>
+                <div className="mt-4 rounded-xl bg-stone-50 p-4">
+                  <div className="sans text-[10px] font-bold uppercase tracking-wider text-stone-500">Key Biblical anchor</div>
+                  <div className="mt-1 font-semibold">1 Kings 6:1</div>
+                </div>
+              </div>
+              <div className="p-5 sm:p-6">
+                <div className="sans text-[10px] font-bold uppercase tracking-[.18em] text-stone-500">Model B</div>
+                <h4 className="mt-2 text-xl font-bold">Later-date model · c. 13th century BCE</h4>
+                <p className="mt-2 text-sm leading-6 text-stone-600">Often considers the Ramesside-period setting of Exodus 1:11 alongside Late Bronze Age chronology and the Egyptian presence in Canaan.</p>
+                <div className="mt-4 rounded-xl bg-stone-50 p-4">
+                  <div className="sans text-[10px] font-bold uppercase tracking-wider text-stone-500">Key Biblical anchor</div>
+                  <div className="mt-1 font-semibold">Exodus 1:11</div>
+                </div>
+              </div>
+            </div>
+            <div className="border-t border-[#ded3c3] bg-[#18212a] px-5 py-4 text-sm leading-6 text-white/75 sm:px-6">
+              <strong className="text-white">Research rule:</strong> neither model is treated as proven merely because a Biblical verse can be aligned with an Egyptian date. The site records the evidence, assumptions and unresolved problems separately.
+            </div>
+          </section>
+        )}
 
         {worldOpen && era === 'origins' && (
           <section className="mb-12 overflow-hidden rounded-2xl border border-[#d8cdbb] bg-[#18212a] text-[#f5eee2]">
