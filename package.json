@@ -1,13 +1,13 @@
 {
   "name": "biblical-history-timeline",
-  "version": "0.3.0",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:v5": "node scripts/validate-v5-data.mjs"
   },
   "dependencies": {
     "next": "16.3.7",

@@ -1,39 +1,42 @@
-# Biblical Historical Timeline — V4
+# Biblical History — V5
 
-V4 expands the project into the Iron Age I / Judges / Early Monarchy period.
+V5 expands the historical timeline through Iron Age I, the early monarchy,
+the Omride dynasty, Qarqar, Jehu, the Mesha Stele, Elijah and Elisha,
+Tiglath-Pileser III, Samaria, and Sennacherib.
 
-## V4 focus
+## Important data-layer change
 
-- Iron Age I transition
-- Philistine horizon
-- Merneptah / Israel external anchor
-- Highland settlement and early Israel
-- Judges
-- Saul
-- David
-- Jerusalem
-- Solomon
-- First Temple tradition
-- Divided monarchy
+The large historical event collection is now stored in:
 
-## Data safety
+`data/events-v5.json`
 
-Historical data uses double-quoted strings consistently so apostrophes such as
-`Israel's`, `Egypt's`, and `David's` cannot terminate a string accidentally.
+TypeScript loads it through:
 
-Run:
+`data/timeline-v5.ts`
+
+This intentionally removes the giant hand-written TypeScript event array.
+JSON parsing now catches missing commas and broken string delimiters before
+the Next.js compiler ever sees the data.
+
+## Run locally
 
 ```powershell
 npm install
-npm run validate:data
+npm run validate:v5
 npm run dev
 ```
 
-Then:
+Then verify production:
 
 ```powershell
 npm run build
 ```
 
-The V4 dataset is kept separate in `data/v4-events.ts` so later modules can be
-merged into a single normalized historical database without rewriting the UI.
+## Workflow rule
+
+Before adding another large event batch:
+
+1. Edit JSON data.
+2. Run `npm run validate:v5`.
+3. Run `npm run build`.
+4. Only then commit/deploy.

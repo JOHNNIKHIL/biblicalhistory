@@ -1,14 +1,93 @@
-import Timeline from '../components/Timeline';
-import {Compass, Layers3, ScrollText, Search, ShieldQuestion} from 'lucide-react';
+import Timeline from "../components/Timeline";
+import { Compass, Layers3, ScrollText, ShieldQuestion } from "lucide-react";
 
-export default function Home(){return <div className="paper-grid grain min-h-screen selection">
- <header className="border-b border-[#d8cdbb] bg-[#18212a] text-[#f6efe3]">
-  <div className="mx-auto max-w-7xl px-4 py-5"><div className="flex items-center justify-between gap-4"><div className="flex items-center gap-3"><div className="grid h-11 w-11 place-items-center rounded-xl border border-white/15 bg-white/5"><Compass size={23}/></div><div><div className="sans text-[10px] font-bold uppercase tracking-[.28em] text-[#d8bd8e]">The Biblical World</div><h1 className="text-lg font-bold sm:text-xl">Historical Master Timeline</h1></div></div><div className="hidden sans text-xs text-[#c9c4bb] sm:block">Bible · Archaeology · Inscriptions · Empires · Classical sources</div></div></div>
- </header>
- <section className="border-b border-[#d8cdbb] bg-[#efe7d7]">
-  <div className="mx-auto max-w-7xl px-4 py-14 sm:py-20"><div className="max-w-4xl"><div className="sans text-xs font-bold uppercase tracking-[.24em] text-[#8b5e34]">A living historical atlas</div><h2 className="mt-4 text-5xl font-bold leading-[.98] tracking-tight sm:text-7xl">The Bible in its<br/><span className="text-[#8b5e34]">historical world.</span></h2><p className="mt-6 max-w-3xl text-lg leading-8 text-stone-700 sm:text-xl">A chronological journey from the ancient Near East to the early Christian era, placing biblical narratives beside archaeology, inscriptions, imperial records, ancient historians and material evidence.</p><div className="mt-8 flex flex-wrap gap-3 sans text-sm"><span className="rounded-full border border-[#cbb99d] bg-[#fffaf1] px-4 py-2">Source-critical</span><span className="rounded-full border border-[#cbb99d] bg-[#fffaf1] px-4 py-2">Chronological</span><span className="rounded-full border border-[#cbb99d] bg-[#fffaf1] px-4 py-2">Evidence-tagged</span><span className="rounded-full border border-[#cbb99d] bg-[#fffaf1] px-4 py-2">Built to expand</span></div></div></div>
- </section>
- <section className="border-b border-[#d8cdbb] bg-[#fffdf8]"><div className="mx-auto grid max-w-7xl gap-0 sm:grid-cols-3">{[[Layers3,'9','eras mapped'],[ScrollText,'50+','research events'],[ShieldQuestion,'7','evidence layers']].map(([Icon,n,label]:any)=><div key={label} className="flex items-center gap-4 border-b border-[#e4dbce] px-5 py-5 sm:border-b-0 sm:border-r last:border-r-0"><Icon size={21} className="text-[#8b5e34]"/><div><div className="text-2xl font-bold">{n}</div><div className="sans text-xs uppercase tracking-wider text-stone-500">{label}</div></div></div>)}</div></section>
- <Timeline/>
- <footer className="border-t border-[#d8cdbb] bg-[#18212a] text-[#d7d1c7]"><div className="mx-auto max-w-7xl px-4 py-10"><div className="grid gap-8 md:grid-cols-[1.4fr_1fr_1fr]"><div><div className="sans text-xs font-bold uppercase tracking-[.2em] text-[#d8bd8e]">Research project</div><p className="mt-3 max-w-md text-sm leading-6 text-[#aaa49b]">This first build is intentionally a foundation. V3 adds competing Exodus chronology models, Egyptian context, Merneptah, Late Bronze Age disruption and archaeological case studies at Jericho and Hazor. Later increments will add deeper maps, dynasties, people profiles, the apostolic age and the spread of Christianity.</p></div><div><h3 className="font-bold text-white">Evidence layers</h3><p className="mt-3 text-sm leading-6 text-[#aaa49b]">Biblical texts are presented alongside independent evidence without assuming that every source answers the same historical question.</p></div><div><h3 className="font-bold text-white">Version</h3><p className="mt-3 font-mono text-sm text-[#aaa49b]">v0.3 · Exodus & Conquest expansion<br/>Static-first · Next.js<br/>Designed for incremental expansion</p></div></div></div></footer>
- </div>}
+export default function Home() {
+  return (
+    <div className="paper-grid grain min-h-screen">
+      <header className="border-b border-[#d8cdbb] bg-[#18212a] text-[#f6efe3]">
+        <div className="mx-auto max-w-7xl px-4 py-5">
+          <div className="flex items-center gap-3">
+            <div className="grid h-11 w-11 place-items-center rounded-xl border border-white/15 bg-white/5">
+              <Compass size={23} />
+            </div>
+            <div>
+              <div className="sans text-[10px] font-bold uppercase tracking-[.28em] text-[#d8bd8e]">
+                The Biblical World
+              </div>
+              <h1 className="text-lg font-bold sm:text-xl">
+                Historical Master Timeline
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section className="border-b border-[#d8cdbb] bg-[#efe7d7]">
+        <div className="mx-auto max-w-7xl px-4 py-14 sm:py-20">
+          <div className="max-w-4xl">
+            <div className="sans text-xs font-bold uppercase tracking-[.24em] text-[#8b5e34]">
+              A living historical atlas
+            </div>
+
+            <h2 className="mt-4 text-5xl font-bold leading-[.98] tracking-tight sm:text-7xl">
+              The Bible in its
+              <br />
+              <span className="text-[#8b5e34]">historical world.</span>
+            </h2>
+
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-stone-700 sm:text-xl">
+              A chronological journey placing biblical narratives beside
+              archaeology, inscriptions, imperial records and ancient
+              historical sources.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-[#d8cdbb] bg-[#fffdf8]">
+        <div className="mx-auto grid max-w-7xl gap-0 sm:grid-cols-3">
+          <Metric icon={<Layers3 size={21} />} value="V5" label="Iron Age expansion" />
+          <Metric icon={<ScrollText size={21} />} value="15+" label="new research events" />
+          <Metric icon={<ShieldQuestion size={21} />} value="JSON" label="validated data layer" />
+        </div>
+      </section>
+
+      <Timeline />
+
+      <footer className="border-t border-[#d8cdbb] bg-[#18212a] text-[#d7d1c7]">
+        <div className="mx-auto max-w-7xl px-4 py-10">
+          <div className="sans text-xs font-bold uppercase tracking-[.2em] text-[#d8bd8e]">
+            Research project
+          </div>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-[#aaa49b]">
+            Historical claims are presented with explicit evidence layers and
+            caution notes. Biblical texts, archaeology, inscriptions and later
+            historical sources are not assumed to answer identical questions.
+          </p>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+function Metric({
+  icon,
+  value,
+  label
+}: {
+  icon: React.ReactNode;
+  value: string;
+  label: string;
+}) {
+  return (
+    <div className="flex items-center gap-4 border-b border-[#e4dbce] px-5 py-5 sm:border-b-0 sm:border-r">
+      <div className="text-[#8b5e34]">{icon}</div>
+      <div>
+        <div className="text-2xl font-bold">{value}</div>
+        <div className="sans text-xs uppercase tracking-wider text-stone-500">
+          {label}
+        </div>
+      </div>
+    </div>
+  );
+}

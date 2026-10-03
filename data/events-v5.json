@@ -1,0 +1,550 @@
+[
+  {
+    "id": "v5-1207",
+    "date": "c. 1207 BCE",
+    "sortYear": -1207,
+    "era": "iron1",
+    "title": "Merneptah Stele and the Israel horizon",
+    "summary": "An Egyptian victory inscription from the reign of Merneptah names Israel in the context of Canaan. It is an important external chronological anchor for an Israelite population or social entity by the late 13th century BCE.",
+    "location": "Canaan / Egypt",
+    "people": [
+      "Merneptah"
+    ],
+    "bible": [],
+    "evidence": [
+      "Epigraphic",
+      "Imperial"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Merneptah Stele",
+      "Egyptian royal inscriptions",
+      "Levantine archaeology"
+    ],
+    "significance": "It establishes that a group named Israel was known in Canaan by this period; it does not by itself narrate the Exodus or conquest.",
+    "historicalNote": "The Egyptian determinative is usually understood to indicate a people/group rather than a city-state. The exact social organization of early Israel remains debated.",
+    "tags": [
+      "Israel",
+      "Merneptah",
+      "Iron Age",
+      "Canaan"
+    ]
+  },
+  {
+    "id": "v5-1150",
+    "date": "c. 1150–1050 BCE",
+    "sortYear": -1100,
+    "era": "iron1",
+    "title": "Highland settlement and the emergence of Israel",
+    "summary": "Iron Age I surveys show substantial growth of small settlements in the central highlands. These communities form a major archaeological context for discussions of Israel's emergence.",
+    "location": "Central highlands",
+    "people": [
+      "Early Israelite communities"
+    ],
+    "bible": [
+      "Judges 1–21"
+    ],
+    "evidence": [
+      "Archaeological",
+      "Material",
+      "Biblical"
+    ],
+    "confidence": "Moderate",
+    "sources": [
+      "Iron Age I highland surveys",
+      "Levantine archaeology",
+      "Book of Judges"
+    ],
+    "significance": "Settlement archaeology gives us evidence for changing population and political organization even where the identity of individual communities is uncertain.",
+    "historicalNote": "Archaeological settlement patterns do not automatically map one-to-one onto the tribal lists or narratives in Judges.",
+    "tags": [
+      "highlands",
+      "Israel",
+      "Iron Age I",
+      "settlement"
+    ]
+  },
+  {
+    "id": "v5-1100",
+    "date": "c. 12th–11th century BCE",
+    "sortYear": -1100,
+    "era": "iron1",
+    "title": "The Judges period in biblical tradition",
+    "summary": "Judges describes a decentralized period marked by local conflicts, charismatic deliverers and interaction with Canaanite and Philistine neighbors. The stories are situated by historians within the changing Iron Age I landscape.",
+    "location": "Canaan",
+    "people": [
+      "Deborah",
+      "Gideon",
+      "Jephthah",
+      "Samson",
+      "Samuel"
+    ],
+    "bible": [
+      "Judges 2–21"
+    ],
+    "evidence": [
+      "Biblical",
+      "Archaeological"
+    ],
+    "confidence": "Debated",
+    "sources": [
+      "Book of Judges",
+      "Iron Age I archaeology"
+    ],
+    "significance": "This is the narrative bridge between Late Bronze Age Canaan and the emergence of monarchy.",
+    "historicalNote": "The chronology and historical reconstruction of individual judges are not independently established in the same way as later imperial events.",
+    "tags": [
+      "Judges",
+      "Deborah",
+      "Gideon",
+      "Samson",
+      "Philistines"
+    ]
+  },
+  {
+    "id": "v5-1050",
+    "date": "c. 11th century BCE",
+    "sortYear": -1050,
+    "era": "iron1",
+    "title": "Saul and the first monarchy",
+    "summary": "1 Samuel presents Saul as the first king of Israel. The archaeological record documents a period of increasing centralization and changing settlement, but cannot independently reconstruct every episode in the Saul narrative.",
+    "location": "Central Canaan",
+    "people": [
+      "Saul",
+      "Samuel",
+      "Jonathan",
+      "David"
+    ],
+    "bible": [
+      "1 Samuel 8–31"
+    ],
+    "evidence": [
+      "Biblical",
+      "Archaeological"
+    ],
+    "confidence": "Debated",
+    "sources": [
+      "1 Samuel",
+      "Iron Age I–II transition archaeology"
+    ],
+    "significance": "Saul represents the biblical transition from tribal leadership to monarchy.",
+    "historicalNote": "The chronology, territorial extent and institutional structure of Saul's kingdom remain debated.",
+    "tags": [
+      "Saul",
+      "Samuel",
+      "monarchy",
+      "Philistines"
+    ]
+  },
+  {
+    "id": "v5-1000",
+    "date": "c. 1000 BCE",
+    "sortYear": -1000,
+    "era": "monarchy",
+    "title": "David and Jerusalem",
+    "summary": "The biblical narrative makes Jerusalem the political center of David's kingdom. Later epigraphic evidence, particularly the Tel Dan inscription, refers to a 'House of David' in the 9th century BCE.",
+    "location": "Jerusalem / Judah",
+    "people": [
+      "David",
+      "Joab",
+      "Nathan"
+    ],
+    "bible": [
+      "2 Samuel 1–24",
+      "1 Kings 1–2"
+    ],
+    "evidence": [
+      "Biblical",
+      "Epigraphic",
+      "Archaeological"
+    ],
+    "confidence": "Moderate",
+    "sources": [
+      "2 Samuel",
+      "1 Kings",
+      "Tel Dan Stele",
+      "Jerusalem archaeology"
+    ],
+    "significance": "The Davidic tradition is one of the key points where Biblical narrative and external epigraphy intersect, while the scale of David's kingdom remains debated.",
+    "historicalNote": "The Tel Dan inscription is later than David's lifetime, so it is evidence for a dynasty or lineage known as the House of David, not a contemporary biography of David.",
+    "tags": [
+      "David",
+      "Jerusalem",
+      "Judah",
+      "Tel Dan",
+      "House of David"
+    ]
+  },
+  {
+    "id": "v5-970",
+    "date": "c. 10th century BCE",
+    "sortYear": -970,
+    "era": "monarchy",
+    "title": "Solomon, Jerusalem and the First Temple tradition",
+    "summary": "1 Kings describes Solomon's administration, international relationships and Temple construction in Jerusalem. Archaeological interpretation of 10th-century monumental architecture remains contested.",
+    "location": "Jerusalem / northern and southern Levant",
+    "people": [
+      "Solomon",
+      "Hiram of Tyre"
+    ],
+    "bible": [
+      "1 Kings 3–11",
+      "2 Chronicles 1–9"
+    ],
+    "evidence": [
+      "Biblical",
+      "Archaeological",
+      "Material"
+    ],
+    "confidence": "Debated",
+    "sources": [
+      "1 Kings",
+      "2 Chronicles",
+      "Iron Age Jerusalem archaeology",
+      "Levantine chronology studies"
+    ],
+    "significance": "The Solomon narrative represents the biblical high point of the united monarchy before the division of the kingdoms.",
+    "historicalNote": "Individual monumental structures cannot simply be labeled Solomonic without secure stratigraphic and chronological evidence.",
+    "tags": [
+      "Solomon",
+      "Temple",
+      "Jerusalem",
+      "Tyre"
+    ]
+  },
+  {
+    "id": "v5-930",
+    "date": "c. 930 BCE",
+    "sortYear": -930,
+    "era": "monarchy",
+    "title": "The kingdom divides: Israel and Judah",
+    "summary": "Following Solomon, the biblical narrative describes two kingdoms: northern Israel and southern Judah. Their histories thereafter unfold under increasingly strong Aramean and Assyrian pressure.",
+    "location": "Israel / Judah",
+    "people": [
+      "Rehoboam",
+      "Jeroboam I"
+    ],
+    "bible": [
+      "1 Kings 12",
+      "2 Chronicles 10"
+    ],
+    "evidence": [
+      "Biblical",
+      "Archaeological",
+      "Imperial"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "1 Kings 12",
+      "2 Chronicles 10",
+      "Iron Age II archaeology"
+    ],
+    "significance": "The divided monarchy creates the political framework for the prophetic and imperial history of the next four centuries.",
+    "historicalNote": "The archaeological visibility of the two kingdoms becomes much clearer in later Iron Age II phases.",
+    "tags": [
+      "Israel",
+      "Judah",
+      "Jeroboam",
+      "Rehoboam"
+    ]
+  },
+  {
+    "id": "v5-885",
+    "date": "c. 885–874 BCE",
+    "sortYear": -880,
+    "era": "monarchy",
+    "title": "Omri establishes a powerful northern dynasty",
+    "summary": "The Omride dynasty consolidates the northern kingdom. External evidence from Assyria and Moab, together with archaeology at sites such as Samaria and Megiddo, provides a richer historical framework for the 9th century BCE.",
+    "location": "Samaria / northern Israel",
+    "people": [
+      "Omri",
+      "Ahab"
+    ],
+    "bible": [
+      "1 Kings 16:21–34"
+    ],
+    "evidence": [
+      "Biblical",
+      "Epigraphic",
+      "Archaeological",
+      "Imperial"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "1 Kings 16",
+      "Mesha Stele",
+      "Assyrian records",
+      "Samaria archaeology"
+    ],
+    "significance": "The Omride period is one of the first phases of the Israelite monarchy with substantial external evidence.",
+    "historicalNote": "External inscriptions often describe the same political world from the perspective of rival kings, not from an Israelite narrative viewpoint.",
+    "tags": [
+      "Omri",
+      "Ahab",
+      "Samaria",
+      "Mesha",
+      "Assyria"
+    ]
+  },
+  {
+    "id": "v5-853",
+    "date": "853 BCE",
+    "sortYear": -853,
+    "era": "monarchy",
+    "title": "Battle of Qarqar",
+    "summary": "Shalmaneser III records a coalition of Levantine rulers at Qarqar. The Assyrian account names Ahab of Israel among the coalition participants.",
+    "location": "Qarqar / northern Syria",
+    "people": [
+      "Shalmaneser III",
+      "Ahab"
+    ],
+    "bible": [
+      "1 Kings 22 (historical context)"
+    ],
+    "evidence": [
+      "Imperial",
+      "Epigraphic",
+      "Biblical"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Kurkh Monolith of Shalmaneser III",
+      "1 Kings 22",
+      "Neo-Assyrian historical records"
+    ],
+    "significance": "The Assyrian text independently situates Ahab and Israel in the regional great-power system of the mid-9th century BCE.",
+    "historicalNote": "The Assyrian royal account is ideological and emphasizes imperial achievement; its troop numbers and claims of victory require source-critical treatment.",
+    "tags": [
+      "Qarqar",
+      "Ahab",
+      "Shalmaneser III",
+      "Assyria"
+    ]
+  },
+  {
+    "id": "v5-841",
+    "date": "841 BCE",
+    "sortYear": -841,
+    "era": "monarchy",
+    "title": "Jehu appears in Assyrian royal art",
+    "summary": "The Black Obelisk of Shalmaneser III depicts a figure identified in the inscription as Jehu of the House of Omri paying tribute.",
+    "location": "Nimrud / Assyria",
+    "people": [
+      "Jehu",
+      "Shalmaneser III"
+    ],
+    "bible": [
+      "2 Kings 9–10"
+    ],
+    "evidence": [
+      "Imperial",
+      "Epigraphic",
+      "Material",
+      "Biblical"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Black Obelisk of Shalmaneser III",
+      "2 Kings 9–10",
+      "Assyrian royal collections"
+    ],
+    "significance": "It provides unusually direct external evidence for a biblical king and the Omride political lineage.",
+    "historicalNote": "The image's exact identification depends on the accompanying inscription; the important evidence is the royal name and tribute context.",
+    "tags": [
+      "Jehu",
+      "Shalmaneser III",
+      "Black Obelisk",
+      "Israel"
+    ]
+  },
+  {
+    "id": "v5-mesha",
+    "date": "9th century BCE",
+    "sortYear": -840,
+    "era": "monarchy",
+    "title": "Mesha Stele records Moab's conflict with Israel",
+    "summary": "Mesha, king of Moab, describes his conflict with Israel and invokes Chemosh in his royal inscription. The stele provides a Moabite political perspective that can be compared with 2 Kings 3.",
+    "location": "Moab",
+    "people": [
+      "Mesha",
+      "Omri",
+      "Jehoram"
+    ],
+    "bible": [
+      "2 Kings 3"
+    ],
+    "evidence": [
+      "Epigraphic",
+      "Imperial",
+      "Biblical"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Mesha Stele",
+      "2 Kings 3",
+      "Moabite archaeology"
+    ],
+    "significance": "The stele is one of the most important non-Biblical inscriptions for reconstructing 9th-century Levantine politics.",
+    "historicalNote": "The inscription presents Moab's perspective and uses royal ideological language, so it should be compared rather than simply harmonized with Kings.",
+    "tags": [
+      "Mesha",
+      "Moab",
+      "Israel",
+      "Omri"
+    ]
+  },
+  {
+    "id": "v5-elijah",
+    "date": "9th century BCE",
+    "sortYear": -830,
+    "era": "monarchy",
+    "title": "Elijah and Elisha in the Omride political world",
+    "summary": "The books of Kings place Elijah and Elisha amid conflicts involving Israel, Aram-Damascus, Phoenicia and internal dynastic struggles. This period overlaps with the Omride dynasty and the rise of Assyria.",
+    "location": "Israel / Aram-Damascus / Phoenicia",
+    "people": [
+      "Elijah",
+      "Elisha",
+      "Ahab",
+      "Jezebel",
+      "Ben-Hadad"
+    ],
+    "bible": [
+      "1 Kings 17–22",
+      "2 Kings 1–13"
+    ],
+    "evidence": [
+      "Biblical",
+      "Archaeological",
+      "Epigraphic",
+      "Imperial"
+    ],
+    "confidence": "Debated",
+    "sources": [
+      "1 Kings",
+      "2 Kings",
+      "Aramaic and Assyrian inscriptions",
+      "Iron Age II archaeology"
+    ],
+    "significance": "It connects prophetic narratives to a wider regional system of interstate warfare and imperial intervention.",
+    "historicalNote": "Specific prophetic episodes are difficult to independently date or verify even when the broader political setting is historically well anchored.",
+    "tags": [
+      "Elijah",
+      "Elisha",
+      "Ahab",
+      "Aram",
+      "Phoenicia"
+    ]
+  },
+  {
+    "id": "v5-tiglath",
+    "date": "745–727 BCE",
+    "sortYear": -735,
+    "era": "assyria",
+    "title": "Tiglath-Pileser III transforms Assyria",
+    "summary": "Tiglath-Pileser III reorganizes the Assyrian Empire and expands aggressively into the Levant. Biblical kings encounter an imperial system capable of annexation, deportation and provincial administration.",
+    "location": "Assyria / Levant",
+    "people": [
+      "Tiglath-Pileser III",
+      "Ahaz",
+      "Pekah",
+      "Menahem"
+    ],
+    "bible": [
+      "2 Kings 15–16"
+    ],
+    "evidence": [
+      "Imperial",
+      "Epigraphic",
+      "Biblical",
+      "Archaeological"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Tiglath-Pileser III inscriptions",
+      "2 Kings 15–16",
+      "Neo-Assyrian archaeology"
+    ],
+    "significance": "Assyrian expansion changes the political map of Israel and Judah and sets up the fall of Samaria.",
+    "historicalNote": "Assyrian records use their own imperial terminology and may describe local kingdoms differently from Biblical political categories.",
+    "tags": [
+      "Tiglath-Pileser III",
+      "Assyria",
+      "Ahaz",
+      "Pekah"
+    ]
+  },
+  {
+    "id": "v5-samaria",
+    "date": "722/721 BCE",
+    "sortYear": -722,
+    "era": "assyria",
+    "title": "Fall of Samaria",
+    "summary": "The northern kingdom of Israel is conquered by Assyria. Assyrian records and the Biblical accounts provide overlapping evidence for the imperial campaign and the political disappearance of the northern kingdom.",
+    "location": "Samaria",
+    "people": [
+      "Hoshea",
+      "Shalmaneser V",
+      "Sargon II"
+    ],
+    "bible": [
+      "2 Kings 17–18"
+    ],
+    "evidence": [
+      "Biblical",
+      "Imperial",
+      "Archaeological"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "2 Kings 17–18",
+      "Assyrian royal inscriptions",
+      "Samaria archaeology"
+    ],
+    "significance": "The fall of Samaria permanently changes the political map of the southern Levant.",
+    "historicalNote": "Assyrian sources and Biblical sources frame the event differently; chronology involving Shalmaneser V and Sargon II requires careful treatment.",
+    "tags": [
+      "Samaria",
+      "Assyria",
+      "Israel"
+    ]
+  },
+  {
+    "id": "v5-lachish",
+    "date": "701 BCE",
+    "sortYear": -701,
+    "era": "assyria",
+    "title": "Sennacherib's campaign and the siege of Lachish",
+    "summary": "Sennacherib campaigns through Judah during Hezekiah's reign. The Assyrian royal record, palace reliefs, the excavated site of Lachish and the Biblical narrative form a rare multi-source convergence.",
+    "location": "Judah / Lachish / Jerusalem",
+    "people": [
+      "Hezekiah",
+      "Sennacherib",
+      "Isaiah"
+    ],
+    "bible": [
+      "2 Kings 18–19",
+      "2 Chronicles 32",
+      "Isaiah 36–37"
+    ],
+    "evidence": [
+      "Biblical",
+      "Imperial",
+      "Archaeological",
+      "Material"
+    ],
+    "confidence": "Strong",
+    "sources": [
+      "Sennacherib inscriptions",
+      "Lachish reliefs",
+      "2 Kings 18–19",
+      "Lachish archaeology"
+    ],
+    "significance": "One of the strongest examples in the Biblical world where literary, imperial, archaeological and artistic evidence overlap.",
+    "historicalNote": "The survival of Jerusalem and the Assyrian presentation of the campaign should be studied alongside the Biblical narrative rather than treated as identical accounts.",
+    "tags": [
+      "Hezekiah",
+      "Sennacherib",
+      "Lachish"
+    ]
+  }
+]
