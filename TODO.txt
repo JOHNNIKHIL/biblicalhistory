@@ -1,0 +1,254 @@
+V2 — 🏺 The Ancient World
+
+We'll substantially expand:
+
+Prehistoric Levant
+Neolithic period
+Jericho
+Çatalhöyük
+Mesopotamia
+Sumer
+Akkad
+Ur
+Old Babylonian period
+Hammurabi
+Mari
+Egypt
+Middle Kingdom
+Hyksos
+Canaanite city states
+Middle Bronze Age
+Late Bronze Age
+Egyptian control of Canaan
+
+And most importantly:
+
+Abraham / Isaac / Jacob / Joseph
+
+with a dedicated "Biblical tradition vs historical context" presentation.
+
+V3 — 🔥 Exodus & Conquest
+
+We'll build an entire chronology around:
+
+Egyptian New Kingdom
+Thutmose III
+Hatshepsut
+Akhenaten
+Tutankhamun
+Seti I
+Ramesses II
+Merneptah
+Moses
+Exodus chronology
+Sinai
+wilderness period
+Joshua
+Jericho
+Ai
+Hazor
+Canaanite archaeology
+settlement patterns
+Sea Peoples
+
+And we'll explicitly show early-date vs late-date Exodus models rather than pretending there is one universally accepted chronology.
+
+V4 — 👑 Israelite Monarchy
+
+This gets huge:
+
+Saul → David → Solomon → Divided Kingdom
+
+with:
+
+dynasties
+kings
+prophets
+wars
+geography
+Jerusalem
+Temple
+Phoenicia
+Tyre
+Aram
+Moab
+Philistines
+Assyria
+Egypt
+
+plus:
+
+Tel Dan
+Mesha Stele
+Kurkh Monolith
+and other inscriptions.
+
+V5 — 🦁 Assyria → Babylon
+
+This will probably become one of the most impressive portions:
+
+722 BCE — Samaria
+
+701 BCE — Sennacherib
+
+Lachish
+
+Hezekiah
+
+Isaiah
+
+Manasseh
+
+Josiah
+
+Babylon
+
+597 BCE
+
+586 BCE
+
+Jerusalem destroyed
+
+First Temple destroyed
+
+Exile
+
+And we'll have maps showing the imperial movements.
+
+V6 — 🦅 Persia
+Cyrus
+Cambyses
+Darius
+Xerxes
+Artaxerxes
+Ezra
+Nehemiah
+Esther
+Haggai
+Zechariah
+Malachi
+Yehud
+Second Temple
+
+with Persian inscriptions and administrative context.
+
+V7 — ⚔️ Greeks / Maccabees
+Alexander
+Ptolemies
+Seleucids
+Antiochus IV
+Daniel's historical context
+Maccabean revolt
+Hasmonean dynasty
+Dead Sea Scrolls
+Qumran
+Jewish sects
+V8 — 🦅 Rome
+
+This becomes the bridge directly into the New Testament:
+
+Pompey → Herod → Augustus → Tiberius
+
+Then:
+
+Herod the Great
+Herod Antipas
+Herod Philip
+Pontius Pilate
+Caiaphas
+Sadducees
+Pharisees
+Essenes
+Zealots
+Sanhedrin
+Roman administration
+Roman military
+taxation
+roads
+cities
+V9 — ✝️ Jesus
+
+An entire historical layer:
+
+Birth → Childhood → Galilee → Ministry → Jerusalem → Trial → Crucifixion
+
+with:
+
+Gospel references
+Josephus
+Tacitus
+archaeology
+Roman administration
+Herodian archaeology
+Pilate evidence
+coins
+inscriptions
+Second Temple Judaism
+
+And importantly, we'll distinguish historical evidence from theological claims rather than pretending they are the same type of evidence.
+
+V10 — 🔥 Early Christianity
+
+Then:
+
+Pentecost → Jerusalem church → Stephen → Paul → Peter → missions → Acts → Roman world → Nero → Jewish Revolt → 70 CE → Masada
+
+And eventually:
+
+AD 100+
+
+so the timeline doesn't arbitrarily stop at Acts.
+
+And I have a bigger idea for the final architecture.
+
+Eventually the website shouldn't merely be a timeline.
+
+It should become a Biblical Historical Atlas:
+
+                         THE BIBLICAL WORLD
+                                │
+          ┌─────────────────────┼─────────────────────┐
+          │                     │                     │
+       TIMELINE               PEOPLE              PLACES
+          │                     │                     │
+          │                     │                     │
+     ┌────┴────┐           ┌────┴────┐          ┌────┴────┐
+     │         │           │         │          │         │
+   Events    Eras        Kings    Prophets    Cities   Empires
+     │                     │                     │
+     └──────────────┬──────┴──────────────┬──────┘
+                    │                     │
+               BIBLICAL TEXTS       EXTERNAL SOURCES
+                    │                     │
+                    └──────────┬──────────┘
+                               │
+                        EVIDENCE MATRIX
+                               │
+                  ┌────────────┼────────────┐
+                  │            │            │
+              Archaeology  Inscriptions   Coins
+                  │            │            │
+                  └────────────┼────────────┘
+                               │
+                         HISTORICAL
+                         ASSESSMENT
+
+So eventually someone could click "Hezekiah", for example, and see:
+
+Hezekiah — King of Judah
+
+Reign
+Family
+Contemporary rulers
+Biblical passages
+Assyrian references
+Sennacherib campaign
+Lachish
+Jerusalem
+Archaeological sites
+Inscriptions
+Timeline
+Maps
+Related prophets
+Primary sources
+Scholarly bibliography
