@@ -1,0 +1,22 @@
+{
+  "release": "V10\u2013V12 Combined",
+  "based_on": "V9",
+  "new_articles": 46,
+  "total_articles": 74,
+  "batches": {
+    "V10": "Divided Kingdoms & Assyria",
+    "V11": "Babylon, Exile & Persian Return",
+    "V12": "Hellenistic, Roman & New Testament World"
+  },
+  "preservation": "V9 content is retained. The original pre-V5 timeline is not replaced by the new article system; future migration can map its events into these story pages.",
+  "article_structure": [
+    "Overview",
+    "Biblical Account and Literary Context",
+    "Historical Context",
+    "Historical and Archaeological Evidence",
+    "What the Evidence Can and Cannot Establish",
+    "People and Places",
+    "Why It Matters",
+    "Research Notes"
+  ]
+}

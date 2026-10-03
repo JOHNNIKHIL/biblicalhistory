@@ -1,0 +1,21 @@
+{
+  "version": "9.0.0",
+  "base": "v8",
+  "new_articles": [
+    "crossing-the-jordan",
+    "jericho",
+    "ai",
+    "gibeonites",
+    "deborah",
+    "gideon",
+    "samson",
+    "ruth",
+    "samuel",
+    "saul",
+    "david-and-goliath",
+    "david-captures-jerusalem",
+    "solomon",
+    "solomon-builds-temple"
+  ],
+  "total_articles": 27
+}
