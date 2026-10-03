@@ -1,0 +1,27 @@
+{
+  "release": "V25-V27",
+  "base": "V22-V24",
+  "new_stories": 18,
+  "new_chapters": 3,
+  "preserves_previous_content": true,
+  "stories": [
+    "jerusalem",
+    "samaria",
+    "megiddo",
+    "hazor",
+    "lachish-city",
+    "jericho-site",
+    "bethlehem",
+    "nazareth",
+    "capernaum",
+    "bethsaida",
+    "caesarea-maritima",
+    "qumran",
+    "masada-site",
+    "babylon-site",
+    "nineveh-site",
+    "ur-site",
+    "egypt-and-the-nile",
+    "sinai-wilderness"
+  ]
+}
