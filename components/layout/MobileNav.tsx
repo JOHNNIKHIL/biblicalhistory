@@ -1,12 +1,12 @@
 "use client";
 
 import Link from "next/link";
-import { BookOpen, Clock3, Compass, Map, MoreHorizontal, Users, Crown, Landmark, Swords, Network, LibraryBig, ScrollText, BookMarked } from "lucide-react";
+import { BookOpen, Clock3, Compass, Map, MoreHorizontal, Users, Crown, Landmark, Swords, Network, LibraryBig, ScrollText, BookMarked, Images } from "lucide-react";
 import { useState } from "react";
 
 const moreItems = [
   ["People", "/people", Users], ["Kingdoms", "/kingdoms", Crown], ["Evidence", "/evidence", Landmark], ["Events", "/events", Swords],
-  ["Connections", "/connections", Network], ["Canon", "/canon", LibraryBig], ["Extended", "/extended", ScrollText], ["Bible Books", "/books", BookMarked],
+  ["Connections", "/connections", Network], ["Canon", "/canon", LibraryBig], ["Extended", "/extended", ScrollText], ["Bible Books", "/books", BookMarked], ["Maps & Images", "/visuals", Images],
 ] as const;
 
 export default function MobileNav() {

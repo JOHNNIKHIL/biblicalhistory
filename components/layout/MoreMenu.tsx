@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ChevronDown, Users, Crown, Landmark, Swords, Network, LibraryBig, ScrollText, BookMarked } from "lucide-react";
+import { ChevronDown, Users, Crown, Landmark, Swords, Network, LibraryBig, ScrollText, BookMarked, Images } from "lucide-react";
 import { useState } from "react";
 
 const items = [
@@ -13,6 +13,7 @@ const items = [
   ["Canon", "/canon", LibraryBig],
   ["Extended Scripture", "/extended", ScrollText],
   ["Bible Books", "/books", BookMarked],
+  ["Maps & Images", "/visuals", Images],
 ] as const;
 
 export default function MoreMenu() {
