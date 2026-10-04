@@ -1,0 +1,14 @@
+export const BiblicalChronologyOverview = {
+  slug: "biblical-chronology-overview",
+  title: "Biblical Chronology: How the Timeline Is Reconstructed",
+  summary: "A guide to the major chronological systems used to place biblical people, kingdoms, empires, and events in historical time.",
+  category: "Chronology",
+  sections: [
+    { heading: "Why biblical chronology is difficult", body: "Biblical chronology is reconstructed from several kinds of evidence rather than from one continuous calendar. Narrative texts, regnal formulas, synchronisms with neighboring kingdoms, ancient chronicles, astronomical observations, archaeological layers, inscriptions, coins, and later historical writers can all contribute. These sources do not always use time in the same way, and different scholarly models can therefore produce different dates." },
+    { heading: "The main chronological anchors", body: "The Assyrian, Babylonian, Persian, Hellenistic, and Roman periods provide increasingly strong external anchors. Assyrian royal inscriptions and eponym lists, Babylonian chronicles and astronomical records, Persian royal evidence, Hellenistic documentary material, and Roman inscriptions help connect biblical narratives to dates outside the Bible." },
+    { heading: "From the monarchy onward", body: "The period of the Israelite and Judahite monarchies is reconstructed by comparing biblical regnal data with Assyrian and Babylonian chronology. Important anchors include the Battle of Qarqar, the Assyrian campaigns against Israel and Judah, the fall of Samaria, the campaigns of Sennacherib, the Babylonian capture of Jerusalem, and the Persian conquest of Babylon." },
+    { heading: "Exodus and earlier periods", body: "Earlier chronology is much more disputed. Proposed dates for the patriarchal period and Exodus depend on interpretations of biblical genealogies, settlement patterns, Egyptian chronology, and archaeological sequences. Archaeology can illuminate the world described by the narratives, but it cannot by itself assign a date to every biblical episode." },
+    { heading: "New Testament chronology", body: "The first century is anchored by Roman imperial chronology, inscriptions, coins, literary sources, and datable political events. The careers of Herod the Great, Pontius Pilate, Paul, and the destruction of Jerusalem in AD 70 can therefore be studied within a comparatively secure historical framework, while individual Gospel events may still have debated dates." },
+    { heading: "How this site should present dates", body: "Dates should be presented with appropriate precision. A securely anchored event may receive a specific year, while a disputed event should receive a range or competing models. The site should distinguish between a biblical date implied by a particular reading, an archaeological date, and a date supported by external historical evidence." },
+  ]
+};
