@@ -13,6 +13,7 @@ export default async function PersonPage({ params }: { params: Promise<{ slug: s
   const stories = (person.storySlugs ?? []).map(s => storyMap[s]).filter(Boolean);
   return <div className="shell"><Header/><main className="mx-auto max-w-[1180px] px-5 py-10 sm:px-6 sm:py-14">
     <div className="sans flex flex-wrap items-center gap-2 text-xs font-bold text-[var(--muted)]"><Link href="/people" className="hover:text-[var(--text)]">People</Link><span>/</span><span className="text-[var(--accent)]">{person.name}</span></div>
+    <div className="mt-5"><Link href={`/connections?focus=person:${person.slug}`} className="sans inline-flex rounded-xl border border-[var(--border)] bg-[var(--surface-2)] px-4 py-2 text-sm font-bold hover:border-[var(--accent)]">Explore connections →</Link></div>
     <header className="mt-8 max-w-5xl"><p className="sans text-xs font-black uppercase tracking-[.2em] text-[var(--accent)]">{person.era} · {person.testament}</p><h1 className="mt-3 text-5xl font-semibold leading-tight sm:text-6xl">{person.name}</h1><p className="sans mt-3 text-lg font-semibold text-[var(--muted)]">{person.epithet ?? person.role}</p><p className="mt-5 max-w-4xl text-xl leading-9 text-[var(--muted)]">{person.summary}</p></header>
     <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,1fr)_320px]">
       <article className="space-y-6">
