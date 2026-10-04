@@ -1,17 +1,17 @@
-export const BookJoshua = {
-  slug: "book-joshua",
-  title: "The Book of Joshua",
-  summary: "The entry into Canaan, settlement traditions and the covenant renewal under Joshua.",
-  category: "Historical Narrative",
+export const BookMark = {
+  slug: "book-mark-book",
+  title: "The Book of Mark",
+  summary: "A fast-moving Gospel centered on Jesus’ actions, suffering, death and resurrection.",
+  category: "Gospel",
   sections: [
-    { heading: "What the book contains", body: "The entry into Canaan, settlement traditions and the covenant renewal under Joshua. The book is best studied as both a literary work and a source embedded in a particular religious, political and cultural world. Its chapters develop themes, people and events that connect to the wider Biblical history presented across this site." },
+    { heading: "What the book contains", body: "A fast-moving Gospel centered on Jesus’ actions, suffering, death and resurrection. The book is best studied as both a literary work and a source embedded in a particular religious, political and cultural world. Its chapters develop themes, people and events that connect to the wider Biblical history presented across this site." },
     { heading: "Historical setting", body: "The historical setting must be reconstructed from the biblical text together with inscriptions, archaeology, comparative ancient Near Eastern or Mediterranean history, and the chronology of neighboring powers where relevant. Some passages have strong external anchors, while other material is difficult to date precisely. A careful reading therefore distinguishes the text's own presentation from modern historical reconstruction." },
-    { heading: "Major themes and sections", body: "The book can be read through its major movements: Joshua, Jordan, Jericho, conquest, allotment, covenant. Individual chapters often combine narrative, law, poetry, prophecy, teaching or theological reflection. Tracking repeated people, places, institutions and vocabulary helps reveal how the book is organized and how it relates to other biblical writings." },
+    { heading: "Major themes and sections", body: "The book can be read through its major movements: Jesus, Galilee, disciples, Jerusalem, crucifixion. Individual chapters often combine narrative, law, poetry, prophecy, teaching or theological reflection. Tracking repeated people, places, institutions and vocabulary helps reveal how the book is organized and how it relates to other biblical writings." },
     { heading: "People and places", body: "Important settings and figures associated with the book should be connected to the site's wider encyclopedia. Geography matters because cities, kingdoms, roads, rivers, sanctuaries and imperial borders shaped the experiences described in the text. Where traditional identifications are uncertain, the uncertainty should be made explicit rather than presented as settled fact." },
     { heading: "Archaeology and external evidence", body: "Archaeology does not provide a one-to-one verification of every chapter. Instead, excavations, inscriptions, administrative texts, coins, architecture and environmental evidence can illuminate the societies, technologies, institutions and historical events surrounding the book. External evidence is strongest when an independently datable object or event can be connected to a named ruler, place or political development in the text." },
     { heading: "How to read the book historically", body: "A useful method is to separate three questions: what the biblical text says, what external evidence independently establishes, and what historians infer by comparing the two. This prevents both extremes—treating every narrative detail as archaeologically proven or dismissing the entire text because individual episodes remain debated." },
     { heading: "Key chapters to explore", body: "Read the book alongside the site's timeline, people pages, geography pages and archaeological evidence. Cross-referencing chapters with related historical events is especially useful for understanding chronology, political change and the development of religious institutions.
 
-Primary reference: Joshua 1–24." }
+Primary reference: Mark 1–16." }
   ]
 };

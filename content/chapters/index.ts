@@ -28,4 +28,9 @@ export const chapters = [
   { id:"people-exodus-judges", title:"Exodus, Settlement and the Judges", description:"Moses, Aaron, Joshua, Deborah, Gideon and Samson across the Exodus, wilderness, settlement and Judges traditions.", stories:["moses","aaron","joshua","deborah","gideon","samson"] },
   { id:"archaeological-evidence", title:"Archaeological Evidence and Historical Anchors", description:"Inscriptions, tunnels, reliefs and objects that illuminate Biblical history without being treated as automatic proof of every narrative detail.", stories:["ketef-hinnom", "siloam-inscription", "hezekiahs-tunnel", "lachish-reliefs", "babylonian-chronicles", "nabonidus-cylinder", "pilate-stone", "caiaphas-ossuary"] },
   { id:"people-monarchy-prophets", title:"Kings and Prophets", description:"Samuel, Saul, David, Solomon, Elijah, Elisha, Isaiah, Jeremiah, Ezekiel, Daniel and the restoration-era prophets.", stories:["samuel","saul","david","solomon","elijah","elisha","isaiah","jeremiah","ezekiel","daniel","haggai","malachi","ezra","nehemiah"] },
+
+
+  { id:"books-torah", title:"Bible Books: Torah", description:"Book-by-book historical and literary guides to Genesis through Deuteronomy.", stories:["book-genesis","book-exodus","book-leviticus","book-numbers","book-deuteronomy"] },
+  { id:"books-history-prophets", title:"Bible Books: History and Prophets", description:"Guides to Joshua, Judges, Samuel, Kings, Isaiah, Jeremiah, Ezekiel and Daniel.", stories:["book-joshua","book-judges","book-1-samuel","book-2-samuel","book-1-kings","book-2-kings","book-isaiah-book","book-jeremiah-book","book-ezekiel-book","book-daniel-book"] },
+  { id:"books-new-testament", title:"Bible Books: Gospels and Acts", description:"Historical and literary guides to Matthew, Mark, Luke, John and Acts.", stories:["book-matthew-book","book-mark-book","book-luke-book","book-john-book","book-acts-book"] },
 ];
