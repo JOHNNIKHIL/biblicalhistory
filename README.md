@@ -1,9 +1,10 @@
-# Biblical History — V16–V18
+# Biblical History V118–V122
 
-Combined update containing V16, V17 and V18.
+Use this cumulative ZIP as the new project base. It continues from V113–V117 build-fix and adds Daniel, Hosea, Joel, Amos and Obadiah deep guides.
 
-This release preserves earlier story content, fixes the story-index import/export mismatch, and adds deeper Hellenistic, Second Temple and Roman-period articles.
+Run locally after extraction:
 
-
-## V67–V69
-Archaeology & Primary Evidence layer: `/evidence` and `/evidence/[slug]`.
+```bash
+npm install
+npm run build
+```
