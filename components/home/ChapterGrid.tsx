@@ -1,25 +1,16 @@
 import Link from "next/link";
 import { chapters } from "../../content/chapters";
+import { ArrowUpRight } from "lucide-react";
 
 export default function ChapterGrid() {
-  return (
-    <section className="mx-auto max-w-7xl px-5 py-16">
-      <p className="sans text-xs font-bold uppercase tracking-[.2em] text-[#7b3f24]">The journey</p>
-      <h2 className="mt-2 text-3xl font-semibold">{chapters.length} chapters of the biblical story</h2>
-      <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {chapters.map((c, i) => (
-          <div key={c.id} className="rounded-2xl border border-stone-200 bg-white p-6">
-            <p className="sans text-xs font-bold text-stone-400">PART {i + 1}</p>
-            <h3 className="mt-2 text-2xl font-semibold">{c.title}</h3>
-            <p className="mt-2 leading-7 text-stone-600">{c.description}</p>
-            {c.stories[0] && (
-              <Link href={"/story/" + c.stories[0]} className="sans mt-5 inline-block text-sm font-bold text-[#7b3f24]">
-                Begin →
-              </Link>
-            )}
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+  return <section className="mx-auto max-w-[1500px] px-4 py-12 sm:px-6 lg:py-16">
+    <div className="flex items-end justify-between gap-5"><div><p className="sans text-xs font-black uppercase tracking-[.2em] text-[var(--accent)]">Browse by pathway</p><h2 className="mt-2 text-3xl font-semibold sm:text-4xl">The library is bigger than the timeline</h2></div><p className="hidden max-w-sm text-right text-sm leading-6 text-[var(--muted)] md:block">Start with the canonical story, then branch into books, people, places, archaeology and historical questions.</p></div>
+    <div className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+      {chapters.map((c, i) => <Link key={c.id} href={c.stories[0] ? `/story/${c.stories[0]}` : "#"} className="panel group rounded-2xl p-5 transition hover:-translate-y-0.5 hover:border-[var(--accent)]">
+        <div className="flex items-start justify-between gap-4"><span className="sans text-[10px] font-black tracking-[.18em] text-[var(--faint)]">{String(i+1).padStart(2,"0")}</span><ArrowUpRight size={17} className="text-[var(--faint)] transition group-hover:text-[var(--accent)]"/></div>
+        <h3 className="mt-8 text-xl font-semibold">{c.title}</h3><p className="mt-2 text-sm leading-6 text-[var(--muted)]">{c.description}</p>
+        <p className="sans mt-4 text-xs font-bold text-[var(--accent)]">{c.stories.length} entries</p>
+      </Link>)}
+    </div>
+  </section>;
 }

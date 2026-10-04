@@ -1,28 +1,13 @@
-export default function StoryMeta({ story }: { story: any }) {
-  const bible = story.bible ?? [];
-  const people = story.people ?? [];
-  const topics = story.topics ?? [];
+import Link from "next/link";
 
-  return (
-    <aside className="sans space-y-5 rounded-2xl border border-stone-200 bg-white p-6 lg:sticky lg:top-24 lg:self-start">
-      <div>
-        <b>Bible references</b>
-        <div className="mt-2 text-sm leading-6 text-stone-600">
-          {bible.length ? bible.join(" · ") : "See the article text for references and context."}
-        </div>
-      </div>
-      <div>
-        <b>People</b>
-        <div className="mt-2 text-sm leading-6 text-stone-600">
-          {people.length ? people.join(" · ") : "Not specified"}
-        </div>
-      </div>
-      <div>
-        <b>Topics</b>
-        <div className="mt-2 text-sm leading-6 text-stone-600">
-          {topics.length ? topics.join(" · ") : story.category ?? "Biblical history"}
-        </div>
-      </div>
-    </aside>
-  );
+export default function StoryMeta({ story }: { story: any }) {
+  const groups = [
+    ["Bible references", story.bible ?? []],
+    ["People", story.people ?? []],
+    ["Topics", story.topics ?? []],
+  ];
+  return <aside className="sans space-y-5 lg:sticky lg:top-24 lg:self-start">
+    <div className="panel rounded-2xl p-5"><p className="text-xs font-black uppercase tracking-[.18em] text-[var(--accent)]">Entry information</p>{groups.map(([label, value]: any) => <div key={label} className="mt-5 border-t border-[var(--border)] pt-4"><b className="text-sm">{label}</b><div className="mt-2 text-sm leading-6 text-[var(--muted)]">{Array.isArray(value) && value.length ? value.join(" · ") : "Not specified"}</div></div>)}</div>
+    <div className="panel-muted rounded-2xl p-5"><p className="text-sm font-bold">Keep exploring</p><p className="mt-2 text-sm leading-6 text-[var(--muted)]">Use the navigation to branch into Bible books, places, the historical timeline and related evidence.</p><Link href="/" className="mt-4 inline-block text-sm font-bold text-[var(--accent)]">Back to encyclopedia →</Link></div>
+  </aside>;
 }

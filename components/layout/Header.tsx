@@ -1,14 +1,26 @@
 import Link from "next/link";
+import { BookOpen, Compass, Map, Search, Clock3 } from "lucide-react";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function Header() {
   return (
-    <header className="sans sticky top-0 z-20 border-b border-stone-200/80 bg-[#faf8f3]/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4">
-        <Link href="/" className="font-bold tracking-[.12em]">BIBLICAL HISTORY</Link>
-        <nav className="flex gap-6 text-sm text-stone-600">
-          <Link href="/">Journey</Link>
-          <Link href="/story/creation">Start at Genesis</Link>
+    <header className="topbar sans sticky top-0 z-50 border-b">
+      <div className="mx-auto flex h-16 max-w-[1500px] items-center gap-4 px-4 sm:px-6">
+        <Link href="/" className="flex min-w-0 items-center gap-3">
+          <span className="grid size-9 shrink-0 place-items-center rounded-xl bg-[var(--accent)] text-white"><BookOpen size={18}/></span>
+          <span className="hidden sm:block">
+            <span className="block text-sm font-black tracking-[.16em]">BIBLICAL HISTORY</span>
+            <span className="block text-[10px] uppercase tracking-[.2em] text-[var(--muted)]">Encyclopedia · Atlas · Timeline</span>
+          </span>
+        </Link>
+        <nav className="ml-auto hidden items-center gap-1 lg:flex">
+          <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/"><Compass size={15} className="mr-2 inline"/>Explore</Link>
+          <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/timeline"><Clock3 size={15} className="mr-2 inline"/>Timeline</Link>
+          <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/places"><Map size={15} className="mr-2 inline"/>Places</Link>
+          <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/books"><BookOpen size={15} className="mr-2 inline"/>Bible Books</Link>
         </nav>
+        <Link href="/search" className="soft-link rounded-xl p-2" title="Search"><Search size={18}/></Link>
+        <ThemeSwitcher />
       </div>
     </header>
   );

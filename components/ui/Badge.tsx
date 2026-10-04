@@ -1,7 +1,3 @@
 export default function Badge({ children }: { children: React.ReactNode }) {
-  return (
-    <span className="sans inline-block rounded-full border border-stone-300 px-3 py-1 text-xs font-bold uppercase tracking-wider text-stone-600">
-      {children}
-    </span>
-  );
+  return <span className="sans inline-flex rounded-full border border-[var(--border)] bg-[var(--surface-2)] px-3 py-1 text-[10px] font-black uppercase tracking-[.16em] text-[var(--accent)]">{children}</span>;
 }
