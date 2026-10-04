@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookOpen, Compass, Map, Search, Clock3, Users, Crown } from "lucide-react";
+import { BookOpen, Compass, Map, Search, Clock3, Users, Crown, Landmark } from "lucide-react";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function Header() {
@@ -19,6 +19,7 @@ export default function Header() {
           <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/people"><Users size={15} className="mr-2 inline"/>People</Link>
           <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/places"><Map size={15} className="mr-2 inline"/>Places</Link>
           <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/kingdoms"><Crown size={15} className="mr-2 inline"/>Kingdoms</Link>
+          <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/evidence"><Landmark size={15} className="mr-2 inline"/>Evidence</Link>
           <Link className="soft-link rounded-lg px-3 py-2 text-sm" href="/books"><BookOpen size={15} className="mr-2 inline"/>Bible Books</Link>
         </nav>
         <Link href="/search" className="soft-link rounded-xl p-2" title="Search"><Search size={18}/></Link>
