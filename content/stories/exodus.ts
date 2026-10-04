@@ -1,15 +1,67 @@
-export const BookExodus = {
-  slug: "book-exodus",
-  title: "The Book of Exodus",
-  summary: "Egypt, Moses, the Exodus, Sinai, covenant and the construction of the tabernacle.",
-  category: "Torah",
-  sections: [
-    { heading: "What the book contains", body: "Egypt, Moses, the Exodus, Sinai, covenant and the construction of the tabernacle. The book is best studied as both a literary work and a source embedded in a particular religious, political and cultural world. Its chapters develop themes, people and events that connect to the wider Biblical history presented across this site." },
-    { heading: "Historical setting", body: "The historical setting must be reconstructed from the biblical text together with inscriptions, archaeology, comparative ancient Near Eastern or Mediterranean history, and the chronology of neighboring powers where relevant. Some passages have strong external anchors, while other material is difficult to date precisely. A careful reading therefore distinguishes the text's own presentation from modern historical reconstruction." },
-    { heading: "Major themes and sections", body: "The book can be read through its major movements: Egypt, Moses, Passover, Exodus, Sinai, covenant, tabernacle. Individual chapters often combine narrative, law, poetry, prophecy, teaching or theological reflection. Tracking repeated people, places, institutions and vocabulary helps reveal how the book is organized and how it relates to other biblical writings." },
-    { heading: "People and places", body: "Important settings and figures associated with the book should be connected to the site's wider encyclopedia. Geography matters because cities, kingdoms, roads, rivers, sanctuaries and imperial borders shaped the experiences described in the text. Where traditional identifications are uncertain, the uncertainty should be made explicit rather than presented as settled fact." },
-    { heading: "Archaeology and external evidence", body: "Archaeology does not provide a one-to-one verification of every chapter. Instead, excavations, inscriptions, administrative texts, coins, architecture and environmental evidence can illuminate the societies, technologies, institutions and historical events surrounding the book. External evidence is strongest when an independently datable object or event can be connected to a named ruler, place or political development in the text." },
-    { heading: "How to read the book historically", body: "A useful method is to separate three questions: what the biblical text says, what external evidence independently establishes, and what historians infer by comparing the two. This prevents both extremes—treating every narrative detail as archaeologically proven or dismissing the entire text because individual episodes remain debated." },
-    { heading: "Key chapters to explore", body: "Read the book alongside the site's timeline, people pages, geography pages and archaeological evidence. Cross-referencing chapters with related historical events is especially useful for understanding chronology, political change and the development of religious institutions.\n\nPrimary reference: Exodus 1–40." }
+export const Exodus = {
+  "slug": "exodus",
+  "title": "The Exodus",
+  "subtitle": "Passover, departure from Egypt and the crossing of the sea become the defining liberation story of Israel.",
+  "date": "Biblical narrative",
+  "location": "Egypt to the wilderness",
+  "chapter": "Beginnings",
+  "bible": [
+    "Exodus 5–15",
+    "Deuteronomy 6",
+    "1 Corinthians 10"
+  ],
+  "people": [
+    "Moses",
+    "Aaron",
+    "Pharaoh"
+  ],
+  "topics": [
+    "Passover",
+    "Exodus",
+    "Red Sea"
+  ],
+  "sections": [
+    {
+      "title": "Overview",
+      "paragraphs": [
+        "Passover, departure from Egypt and the crossing of the sea become the defining liberation story of Israel. The account is central to the Bible's larger narrative and is repeatedly remembered by later biblical writers. It connects family history, covenant, geography and the identity of Israel.",
+        "The story marks a transition in the biblical journey: individuals and households become part of a developing people whose history will eventually include settlement, monarchy, exile and restoration."
+      ]
+    },
+    {
+      "title": "The Biblical Account",
+      "paragraphs": [
+        "The narrative develops through journeys, family relationships, divine promises and moments of crisis. Important episodes are preserved across Genesis and Exodus, and later biblical books repeatedly refer back to them.",
+        "Reading the account in sequence reveals continuity rather than isolated stories. The promises, conflicts and decisions of one generation shape the circumstances inherited by the next."
+      ]
+    },
+    {
+      "title": "Ancient Historical Context",
+      "paragraphs": [
+        "These stories are set within the ancient Near East, a world of pastoral communities, agricultural settlements, city-states, kingdoms and long-distance trade. Egypt, Canaan and Mesopotamia were connected by movement and commerce, while political control of the Levant changed repeatedly.",
+        "Archaeology illuminates this environment through settlements, inscriptions, trade goods, architecture and administrative records. It rarely provides a direct inscription confirming every individual biblical episode, so historical interpretation must distinguish contextual evidence from direct evidence."
+      ]
+    },
+    {
+      "title": "People, Places and Sources",
+      "paragraphs": [
+        "The principal figures and places in this article are documented primarily through the biblical text. The relevant passages—Exodus 5–15, Deuteronomy 6, 1 Corinthians 10—should be read alongside the narrative rather than treated as an afterthought.",
+        "Later biblical writers also reinterpret these figures in new historical circumstances, making cross-references essential for understanding how the story functioned within the wider biblical tradition."
+      ]
+    },
+    {
+      "title": "Questions and Interpretation",
+      "paragraphs": [
+        "Readers and scholars differ over chronology, the relationship between biblical tradition and archaeology, and the degree to which particular episodes can be reconstructed historically. A reference work should preserve those distinctions rather than presenting uncertain reconstructions as established facts.",
+        "The goal of this atlas is therefore to put the biblical account first, then place it beside the ancient historical world and clearly identify where evidence is strong, limited or disputed."
+      ]
+    },
+    {
+      "title": "Why It Matters",
+      "paragraphs": [
+        "Later biblical books treat these events as foundational. Prophets, psalmists and New Testament writers repeatedly invoke the patriarchs and Exodus when discussing covenant, faith, deliverance and identity.",
+        "The next story continues the chain, allowing readers to follow the whole biblical narrative rather than encountering disconnected timeline entries."
+      ]
+    }
   ]
 };
