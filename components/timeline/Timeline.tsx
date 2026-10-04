@@ -25,9 +25,9 @@ export default function Timeline() {
                 return (
                   <Link href={`/story/${s.slug}`} key={slug} className="group relative mb-7 block rounded-2xl border border-[var(--line)] bg-[var(--card)] p-5 transition hover:-translate-y-0.5 hover:border-[#b49570] hover:shadow-lg">
                     <span className="absolute -left-[38px] top-7 h-4 w-4 rounded-full border-4 border-[var(--paper)] bg-[var(--accent)]" />
-                    <div className="sans text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{s.date}</div>
+                    <div className="sans text-xs font-bold uppercase tracking-wider text-[var(--accent)]">{"date" in s ? s.date : s.category ?? "Historical context"}</div>
                     <h4 className="mt-1 text-2xl font-bold group-hover:text-[var(--accent)]">{s.title}</h4>
-                    <p className="mt-2 text-stone-600 leading-7">{s.subtitle}</p>
+                    <p className="mt-2 text-stone-600 leading-7">{"subtitle" in s ? s.subtitle : s.summary}</p>
                     <span className="sans mt-4 inline-block text-sm font-semibold text-[var(--accent)]">Read the story →</span>
                   </Link>
                 );
