@@ -27,6 +27,10 @@ export default async function UnifiedBookPage({ params }: { params: Promise<{ sl
     </main></div>;
   }
 
+  // The extended-book branch above can return, so from here onward this is a core Bible book.
+  // Keep the explicit guard so TypeScript/Vercel can narrow `book` reliably in production.
+  if (!book) return null;
+
   const guide = deepBookMap[slug];
   const status = canonComparison.find(row => row.slug === slug || row.name === book.name);
   const story = book.guideSlug ? storyMap[book.guideSlug] : undefined;
@@ -34,7 +38,7 @@ export default async function UnifiedBookPage({ params }: { params: Promise<{ sl
 
   return <div className="shell"><Header/><main className="mx-auto max-w-[1250px] px-4 py-10 sm:px-6 sm:py-14">
     <div className="sans flex flex-wrap items-center gap-2 text-xs font-bold text-[var(--muted)]"><Link href="/books">Books</Link><span>/</span><span className="text-[var(--accent)]">{book.name}</span></div>
-    <header className="mt-8 max-w-5xl"><p className="sans text-xs font-black uppercase tracking-[.2em] text-[var(--accent)]">{book.testament} · {sectionMeta}</p><h1 className="mt-3 text-5xl font-semibold leading-tight sm:text-6xl">{guide?.name ?? `The Book of ${book.name}`}</h1><p className="mt-4 text-xl leading-8 text-[var(--muted)]">{guide?.subtitle ?? story?.summary ?? `Explore all ${book.chapters} chapters, the book's place in Scripture, and the historical material connected to it.`}</p></header>
+    <header className="mt-8 max-w-5xl"><p className="sans text-xs font-black uppercase tracking-[.2em] text-[var(--accent)]">{book.testament} · {sectionMeta}</p><h1 className="mt-3 text-5xl font-semibold leading-tight sm:text-6xl">{guide?.name ?? `The Book of ${book.name}`}</h1><p className="mt-4 text-xl leading-8 text-[var(--muted)]">{guide?.subtitle ?? (story && "summary" in story ? story.summary : undefined) ?? `Explore all ${book.chapters} chapters, the book's place in Scripture, and the historical material connected to it.`}</p></header>
 
     {guide ? <>
       <section className="mt-9 panel rounded-3xl p-6 sm:p-9"><p className="sans text-xs font-black uppercase tracking-[.16em] text-[var(--accent)]">Deep book guide</p><p className="mt-4 text-lg leading-8 text-[var(--muted)]">{guide.overview}</p><div className="mt-7 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"><div><p className="sans text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Genre</p><p className="mt-1 text-sm leading-6">{guide.genre}</p></div><div><p className="sans text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Setting</p><p className="mt-1 text-sm leading-6">{guide.setting}</p></div><div><p className="sans text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Authorship</p><p className="mt-1 text-sm leading-6">{guide.authorship}</p></div><div><p className="sans text-xs font-bold uppercase tracking-wider text-[var(--muted)]">Dating</p><p className="mt-1 text-sm leading-6">{guide.dating}</p></div></div></section>
