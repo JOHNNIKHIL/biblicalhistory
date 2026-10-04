@@ -15,7 +15,7 @@ const ot = (name: string, slug: string, section: string, chapters: number, order
 const nt = (name: string, slug: string, section: string, chapters: number, order: number, guideSlug?: string): BibleBook => ({ name, slug, testament: "New Testament", section, chapters, order, guideSlug });
 
 /**
- * The 66-book Protestant canon is used as the core navigation set.
+ * The 66-book Protestant canon remains the core navigation set; deep guides are now layered on top, with canon-specific libraries represented separately.
  * Other Christian traditions are represented separately in content/bible/canons.ts
  * because canon size, ordering, grouping, and status vary between churches.
  */
